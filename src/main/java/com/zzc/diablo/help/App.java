@@ -2,9 +2,10 @@ package com.zzc.diablo.help;
 
 import com.melloware.jintellitype.JIntellitype;
 import com.zzc.diablo.help.common.Action;
-import com.zzc.diablo.help.robot.Bar_bingdizhen;
-import com.zzc.diablo.help.robot.Bar_xuanfeng;
-import com.zzc.diablo.help.robot.CRU;
+import com.zzc.diablo.help.robot.diablo.Bar_bingdizhen;
+import com.zzc.diablo.help.robot.diablo.Bar_xuanfeng;
+import com.zzc.diablo.help.robot.diablo.CRU;
+import com.zzc.diablo.help.robot.wow.WowJump;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +24,8 @@ public class App {
             action = new Bar_bingdizhen();
         } else if ("2".equalsIgnoreCase(args[0])) {
             action = new CRU();
+        } else if ("3".equalsIgnoreCase(args[0])) {
+            action = new WowJump();
         }
 
         JIntellitype jIntellitype = JIntellitype.getInstance();

@@ -1,4 +1,4 @@
-package com.zzc.diablo.help.robot;
+package com.zzc.diablo.help.robot.diablo;
 
 /**
  * 魔法师

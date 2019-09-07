@@ -1,4 +1,4 @@
-package com.zzc.diablo.help.robot;
+package com.zzc.diablo.help.robot.diablo;
 
 import com.zzc.diablo.help.common.Action;
 import lombok.extern.slf4j.Slf4j;
