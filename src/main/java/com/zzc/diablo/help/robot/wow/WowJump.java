@@ -44,6 +44,7 @@ public class WowJump implements Action{
                     robot.keyRelease(KeyEvent.VK_SPACE);
 
                     int sleepTime = new Random().nextInt(10);
+                    Thread.sleep(1000 * sleepTime);
                     System.out.println("sleep time " + sleepTime);
                 }
             } catch (Exception e) {
